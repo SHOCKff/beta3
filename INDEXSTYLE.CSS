@@ -1,0 +1,18 @@
+body{
+    background-color: aquamarine
+}
+#SS{
+    text-align: center;
+}
+#surahnames{
+    color: rgb(26, 26, 117);
+    background-color: rgb(243, 188, 223);
+    margin-right: 190px;
+    text-align: center;
+    border: solid;
+    border-radius: 20px;
+    
+}
+.surah{
+    text-decoration: none;
+}
