@@ -142,8 +142,8 @@ setting.onclick=()=>{
   }
 autoclose=()=>{
   setTimeout(()=>{
-    work.setAttribute("style","display:none")},10000);
-    setting.innerText="⚙️";
+    work.setAttribute("style","display:none");
+    setting.innerText="⚙️";},15000);
 };
 Transval=0;
 let nedar=[];
