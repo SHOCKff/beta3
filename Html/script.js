@@ -290,9 +290,6 @@ createarray=()=>{
 if(localStorage.length==0){
   localStorage.setItem("Trans_lang",0);
   apicall(0,surahno);}//Dfault langugae english(0)localStorage.getItem("Trans_lang")
-else{
-  apicall( localStorage.getItem("Trans_lang"),surahno);
-  }; //api call to get transalted array
 //2.local storage{true/false; language values}
 let blk_box=document.getElementById("backgrnd_translation");
 let triangle=document.getElementById("triangle");
